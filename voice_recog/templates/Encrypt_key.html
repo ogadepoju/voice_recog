@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GIVE IT ANY NAME FIRST</title>
+        <link rel="stylesheet" href="{{ 'templates/bootstrap.css' }}">
+    </head>
+    <style type="text/css">
+    body 
+    {
+              margin: 50px 0px 0px 10px;
+              font-family: sans-serif;
+              font-size: 1rem;
+              font-weight: 400;
+              line-height: 1.5;
+              color: red;
+              /*text-align: center;*/
+              background-color: #03675f;
+    }  
+        h1
+        {
+          text-align: left;
+          margin-left: 30px;
+          color: #fff;
+        }
+
+        .note
+        {
+
+          /*border: 5px #ffc107  solid;*/
+          color: #ffc107;
+        }
+        .btn
+        {
+            width: 80px;
+            height: 30px;
+           background-color: #04fce8;
+           margin-left: 50px;
+           color: #03675f;
+            border:2px #03675f solid;
+            border-radius:15px; 
+        }
+        .upload
+        {
+            width: 600px;
+            /*background-color: red;*/
+        }
+         input{
+            width: 400px;
+            height: 25px;
+            border:2px #04fce8 solid;
+            border-radius:7px; 
+        }
+        
+    </style>
+    <body>
+        <h1>PLEASE INSERT ENCRYPTION KEY</h1>
+      <div class="note">
+        <p>Note: <br>
+        The purpose of this encryption is just to allow only intended party to have access to the message. <br>
+        Make sure the provided key is cannot be easily guessed by a third party client in order to keep your message safe. </p>
+      </div>
+            <div class="row">
+                <!-- <img src="lmic.png" width="250px" height="250px" class="img img-reponsive" alt="">
+                <br> -->
+                <!-- <hr> -->
+                    <div class="upload">
+                        <input type="form" name="submit">
+                        <button onclick="" style="margin-top: 5px" class="btn btn-lg btn-primary">
+                       Send
+                        </button>
+                    </div>
+        
+            </div>
+        
+        <script src="./templates/includes/bootstrap.js"></script>
+    </body>
+</html>
